@@ -1,0 +1,15 @@
+{
+  "name": "conways-game-of-life-solution",
+  "version": "1.0.0",
+  "description": "Solution for Conway's game of life",
+  "scripts": {
+    "run": "lib/run.js",
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "proxyquire": "^1.8.0"
+  }
+}
