@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Solution for Conway's game of life",
   "scripts": {
-    "run": "lib/run.js",
+    "run-game": "lib/run-game.js",
     "test": "jasmine"
   },
   "author": "",

@@ -17,7 +17,12 @@ The initial pattern constitutes the seed of the system.
 The first generation is created by applying the above rules simultaneously to every cell in the seed—births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick (in other words, each generation is a pure function of the preceding one).
 The rules continue to be applied repeatedly to create further generations.
 
+## Prerequisites
+- node 4 or above
+- yarn
+
 ## Constraints
+- run your program via `yarn run-game`
 - read the simple input file from the `seeds` directory. It contains an 80 x 40 grid where `-` represents a dead cell and `*` represents a live one
 - redisplay the entire grid on the screen each generation. Functions like `process.stdout.write`, `process.stdout.clearLine`, `process.stdout.cursorTo` might come in handy
 - generations tick every 0.5 seconds
