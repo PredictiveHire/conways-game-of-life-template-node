@@ -24,8 +24,8 @@ The rules continue to be applied repeatedly to create further generations.
 ## Constraints
 - run your program via `yarn run-game`
 - read the simple input file from the `seeds` directory. It contains an 80 x 40 grid where `-` represents a dead cell and `*` represents a live one
-- redisplay the entire grid on the screen each generation. Functions like `process.stdout.write`, `process.stdout.clearLine`, `process.stdout.cursorTo` might come in handy
 - generations tick every 0.5 seconds
+- redisplay the entire grid on the screen each generation, there is code inside of `run-game.js` to do this
 - the program can be exited using ctrl+c
 
 ## Testing
