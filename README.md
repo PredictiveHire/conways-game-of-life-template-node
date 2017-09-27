@@ -22,7 +22,7 @@ The rules continue to be applied repeatedly to create further generations.
 - yarn
 
 ## Constraints
-- run your program via `yarn run-game`
+- run your program via `yarn run-game path/to/seed.txt`
 - read the simple input file from the `seeds` directory. It contains an 80 x 40 grid where `-` represents a dead cell and `*` represents a live one
 - generations tick every 0.5 seconds
 - redisplay the entire grid on the screen each generation, there is code inside of `run-game.js` to do this
@@ -31,4 +31,3 @@ The rules continue to be applied repeatedly to create further generations.
 ## Testing
 - [Jasmine](https://jasmine.github.io/) has been set up for testing
 - [Proxyquire](https://github.com/thlorenz/proxyquire) has been set up for stubbing out dependencies
-- See `sampleSpec.js` for an example
